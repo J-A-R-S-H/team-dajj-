@@ -22,3 +22,35 @@ body {
     padding: 20px;
     height: 40vh;
 }
+
+#tiger {
+    width: 35%;
+    height: 25%;
+    margin-left: 1rem;
+}
+
+.article-animations {
+    display: flex;
+    align-items: center;
+    margin-top: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 14rem;
+
+    background-color: aliceblue;
+
+}
+.animations-1 h3{
+    margin-left: 2.2rem;
+}
+.animations-1 {
+    width: 33%;
+    margin-left: 1rem;
+}
+
+.animations-2 {
+    width: 66%;
+}
+
+.animations-1 #tiger {
+    margin-left: 2rem;
+}
