@@ -16,7 +16,10 @@ body {
     align-items: center;
     margin-top: 20rem;
 }
+.tiger {
+margin: 0 auto;
 
+width: 100%}
 .start-button {
     width: 150px;
     height: 60px;
@@ -153,4 +156,8 @@ h2 {
     width: 45%;
     background-color: coral;
     padding: 2rem;
+}
+
+.slick-next {
+    margin-right: 1rem;
 }
