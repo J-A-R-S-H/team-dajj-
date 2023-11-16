@@ -8,7 +8,6 @@ flex-direction: column;
 justify-content: center;
 align-items: center;
 margin-top: 20rem;
-
 }
 
 .start-button {
@@ -17,13 +16,8 @@ margin-top: 20rem;
     font-size: 1.5rem;
 }
 
-.tiger {
-    position: relative;
-    object-fit: cover;
-    height: 100vh;
-    width: 100%;
-    object-position:  top;
-    margin-top: 20rem;
-
+/* Example styles, customize as needed */
+#splide {
+    width: 80%;
+    margin: 0 auto;
 }
-
