@@ -1,3 +1,11 @@
 body {
     font-family: 'Montserrat', sans-serif;
 }
+
+.start-page {
+display: flex;
+}
+
+section {
+    display: none;
+}
