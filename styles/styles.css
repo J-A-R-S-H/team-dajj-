@@ -1,13 +1,14 @@
 body {
     font-family: 'Montserrat', sans-serif;
+    background-color: salmon;
 }
 
 .start-page {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20rem;
 }
 
 .start-button {
@@ -16,8 +17,8 @@ margin-top: 20rem;
     font-size: 1.5rem;
 }
 
-/* Example styles, customize as needed */
-#splide {
-    width: 80%;
-    margin: 0 auto;
+.slides {
+    border: 10px solid red;
+    padding: 20px;
+    height: 40vh;
 }
