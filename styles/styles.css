@@ -5,7 +5,3 @@ body {
 .start-page {
 display: flex;
 }
-
-section {
-    display: none;
-}
