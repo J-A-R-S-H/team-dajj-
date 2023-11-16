@@ -15,3 +15,9 @@ body {
     height: 60px;
     font-size: 1.5rem;
 }
+
+/* Example styles, customize as needed */
+#splide {
+    width: 80%;
+    margin: 0 auto;
+}
