@@ -3,11 +3,11 @@ body {
 }
 
 .start-page {
-display: flex;
-flex-direction: column;
-justify-content: center;
-align-items: center;
-margin-top: 20rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20rem;
 }
 
 .start-button {
@@ -15,7 +15,3 @@ margin-top: 20rem;
     height: 60px;
     font-size: 1.5rem;
 }
-
-
-
-
