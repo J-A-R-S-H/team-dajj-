@@ -20,5 +20,25 @@ body {
 .slides {
     border: 10px solid red;
     padding: 20px;
-    height: 40vh;
+    height: 60vh;
+}
+
+#transform-slide h2 {
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 14rem;
+}
+
+.section-topic {
+    font-size: 3rem;
+    margin: 10rem 5rem 2rem;
+}
+
+.section-topic+p {
+    margin: 0 5rem;
+}
+
+.test {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
 }
