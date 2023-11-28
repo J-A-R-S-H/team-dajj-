@@ -18,8 +18,9 @@ body {
 }
 
 .tiger {
-margin: 0 auto;
-width: 50%}
+    margin: 0 auto;
+    width: 50%
+}
 
 
 .start-button {
@@ -30,23 +31,25 @@ width: 50%}
 
 .animation-background {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
-	background-size: 400% 400%;
-	animation: background-gradient 15s ease infinite;
-	height: 50vh;
+    background-size: 400% 400%;
+    animation: background-gradient 15s ease infinite;
+    height: 50vh;
     font-size: 1rem;
     color: white;
 }
 
 @keyframes background-gradient {
-	0% {
-		background-position: 0% 50%;   
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
+    0% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0% 50%;
+    }
 }
 
 .google-loader {
@@ -63,7 +66,7 @@ width: 50%}
     width: 3rem;
     height: 3rem;
     border-radius: 50%;
-    animation: loading-ani 1s ease-in-out infinite alternate  ;
+    animation: loading-ani 1s ease-in-out infinite alternate;
 }
 
 @keyframes loading-ani {
@@ -77,14 +80,17 @@ width: 50%}
     background-color: #4284f4;
     animation-delay: 0.2s;
 }
+
 .red {
     background-color: #eb4236;
     animation-delay: 0.4s;
 }
+
 .yellow {
     background-color: #fcbc05;
     animation-delay: 0.6s;
 }
+
 .green {
     background-color: #34a854;
     animation-delay: 0.8s;
@@ -92,31 +98,124 @@ width: 50%}
 
 
 
-.slides {
-    border: 10px solid red;
-    padding: 20px;
-    height: 60vh;
+/* Transform Start */
+
+#intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
 }
 
-#transform-slide h2 {
-    font-size: 4rem;
-    text-align: center;
-    margin-top: 14rem;
-}
-
-.section-topic {
+#intro h2 {
     font-size: 3rem;
-    margin: 10rem 5rem 2rem;
 }
 
-.section-topic+p {
-    margin: 0 5rem;
+.transform-section h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin: 3rem 0 0 0;
+    padding: 0 1rem;
 }
 
-.test {
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
+.transform-section p {
+    font-size: 1.25rem;
+    line-height: 1.5;
+    margin: 1rem auto 0;
+    max-width: 70%;
 }
+
+.part-four ul {
+    padding: 0 2rem;
+    margin: 0 auto;
+    max-width: 70%;
+}
+
+.part-four li {
+    margin: 1rem 0 0 0;
+}
+
+.slick-prev.slick-arrow {
+    margin: 0 0 0 2rem;
+}
+
+.slick-next.slick-arrow {
+    margin: 0 2.625rem 0 0;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    font-size: 1.75rem;
+}
+
+@media (min-width: 50em) {
+    #intro h2 {
+        font-size: 4rem;
+    }
+
+    .transform-section h3 {
+        font-size: 3rem;
+        margin: 4rem 0 0 0;
+    }
+
+    .transform-section p {
+        font-size: 1.5rem;
+    }
+
+    .part-four li {
+        font-size: 1.25rem;
+    }
+
+    .slick-prev.slick-arrow {
+        margin: 0 0 0 2.5rem;
+    }
+
+    .slick-next.slick-arrow {
+        margin: 0 3.25rem 0 0;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        font-size: 2rem;
+    }
+}
+
+@media (min-width: 75em) {
+    #intro h2 {
+        font-size: 5rem;
+    }
+
+    .transform-section h3 {
+        font-size: 4rem;
+        margin: 5rem 0 0 0;
+    }
+
+    .transform-section p {
+        font-size: 2rem;
+    }
+
+    .part-four li {
+        font-size: 1.5rem;
+    }
+
+    .slick-prev.slick-arrow {
+        margin: 0 0 0 3rem;
+    }
+
+    .slick-next.slick-arrow {
+        margin: 0 5rem 0 0;
+    }
+
+    .slick-prev:before,
+    .slick-next:before {
+        font-size: 3rem;
+    }
+}
+
+
+/* Transform End */
+
+
 
 #tiger {
     width: 35%;
@@ -152,10 +251,10 @@ width: 50%}
     margin-left: 2rem;
 }
 
-h2 {
+/* h2 {
     display: flex;
     justify-content: center;
-}
+} */
 
 .transitions-header-page {
     background-color: aliceblue;
@@ -188,10 +287,10 @@ h2 {
     padding: 2rem;
 }
 
-h2 {
+/* h2 {
     display: flex;
     justify-content: center;
-}
+} */
 
 .transitions-header-page {
     background-color: aliceblue;
