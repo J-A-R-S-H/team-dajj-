@@ -29,6 +29,14 @@
             <h1 class="fw-light text-white m-0">CSS Gradient Background Animation</h1>
         </div>
 
+        <div class="google-loader">
+            <!-- <h1>CSS loading animation</h1> -->
+            <div class="dot blue"></div>
+            <div class="dot red"></div>
+            <div class="dot yellow"></div>
+            <div class="dot green"></div>
+        </div>
+
         <section class="css-transform-section">
             <div class="slides">
                 <div id="intro">
@@ -113,9 +121,7 @@
                 </div>
 
                 <div class="animations-2">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae libero, iusto ipsam magnam quaerat
-                        ex necessitatibus, facere, similique mollitia iste vitae laudantium explicabo alias. Iusto
-                        corrupti quod sunt. Nam, aspernatur?</p>
+                    <p>CSS animation is a feature of CSS that allows us to animate a change in one or more style properties of an element, as well as control various aspects of the animation.</p>
                 </div>
             </article>
 
@@ -126,9 +132,7 @@
 
                 </div>
                 <div class="animations-2">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae libero, iusto ipsam magnam quaerat
-                        ex necessitatibus, facere, similique mollitia iste vitae laudantium explicabo alias. Iusto
-                        corrupti quod sunt. Nam, aspernatur?</p>
+                    <p>CSS animation is quite similar to CSS transition, but CSS animation can define every single frame and do a more complex display than CSS transition.</p>
                 </div>
             </article>
 
@@ -138,9 +142,13 @@
                 </div>
 
                 <div class="animations-2">
-                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quae libero, iusto ipsam magnam quaerat
-                        ex necessitatibus, facere, similique mollitia iste vitae laudantium explicabo alias. Iusto
-                        corrupti quod sunt. Nam, aspernatur?</p>
+                    <p>
+                        <ul> 
+                            <li>CSS is often the best choice for basic animations like hover effects, transitions, and small, non-interactive animations.</li>
+                            <li>CSS animations are generally smoother and more efficient, making them ideal for performance-critical scenarios.</li>
+                            <li>And when you're designing responsive websites, CSS animations adapt to different screen sizes seamlessly.</li>
+                        </ul>
+                    </p>
                 </div>
             </article>
 
@@ -149,21 +157,73 @@
                     <h3>Where would you use it?</h3>
                 </div>
                 <div class="animations-2">
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt est ducimus alias incidunt dicta,
-                        modi vitae voluptates explicabo, optio placeat harum laboriosam iste, neque doloribus.
-                        Repudiandae tempore excepturi id neque.</p>
+                    <p>
+                        Animation is an effective way to hold attention and delight viewers on our website. We can use it on like: Mouse Hover Transition Effect, animated Submit Button, simple Loading Spinners to kill time during page loads, adding some extra flair to a landing page.<a href="https://blog.hubspot.com/website/css-animation-examples">inspiration</a>
+                    </p>
                 </div>
             </article>
 
             <article class="article-animations">
                 <div class="animations-1">
                     <h3>How do you use it?</h3>
-                    <img src="images/tiger-fixed.jpg" alt="tiger" id="tiger">
                 </div>
                 <div class="animations-2">
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Deserunt officiis inventore dolor
-                        voluptatibus neque fugiat nulla facere id aliquid voluptatem. Mollitia aut at velit sed
-                        reprehenderit. Aperiam, molestiae amet! Similique!</p>
+                    <p>We only need to define two parts:
+                        (1) The beginning and end of the animation 
+                        (2) The way the animation transitions.
+                    </p>
+                    <div class="div-table">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>The animation properties</th>
+                                    <th>Default values / other values</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>animation-name</td>
+                                    <td>Specifies the name of the @keyframes at-rule describing an animation's keyframes.</td>
+                                    <td>none</td>
+                                </tr>
+                                <tr>
+                                    <td>animation-duration</td>
+                                    <td>Specifies the length of time in which an animation completes one cycle.</td>
+                                    <td>0 / 2s / 20ms …</td>
+                                </tr>
+                                <tr>
+                                    <td>animation-delay</td>
+                                    <td>Specifies the delay between an element loading and the start of an animation sequence and whether the animation should start immediately from its beginning or partway through the animation.</td>
+                                    <td>0 / 2s / 20ms / -1s…</td>
+                                </tr>
+                                <tr>
+                                    <td>animation-iteration-count</td>
+                                    <td>Specifies the number of times an animation should repeat.</td>
+                                    <td>1 / infinite</td>
+                                </tr>
+                                <tr>
+                                    <td>animation-timing-function</td>
+                                    <td>Specifies how an animation transitions through keyframes by establishing acceleration curves.</td>
+                                    <td>ease / linear / ease-in / ease-out / ease-in-outstep-start / step-end / steps(int,start/end) / cubic-bezier(n,n,n,n)</td>
+                                </tr>
+                                <tr>
+                                    <td>animation-direction</td>
+                                    <td>Specifies whether an animation's iteration should be forward or backward</td>
+                                    <td>normal / reverse / alternate / alternate-reverse</td>
+                                </tr>
+                                <tr>
+                                    <td>animation-fill-mode</td>
+                                    <td>Specifies how an animation applies styles to its target before and after it runs.</td>
+                                    <td>none / forwards / backwards / both</td>
+                                </tr>
+                                <tr>
+                                    <td>animation-play-state</td>
+                                    <td>Specifies whether to pause or play an animation sequence.</td>
+                                    <td>running / paused</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                 </div>
             </article>
 
