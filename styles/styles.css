@@ -5,7 +5,7 @@
 
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: salmon;
+    background-color: rgb(165, 165, 165);
 
 }
 
@@ -29,11 +29,13 @@ body {
     font-size: 1.5rem;
 }
 
+/* ------ animation-demo ------- */
+
 .animation-background {
     background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
     background-size: 400% 400%;
     animation: background-gradient 15s ease infinite;
-    height: 50vh;
+    height: 100vh;
     font-size: 1rem;
     color: white;
 }
@@ -96,7 +98,7 @@ body {
     animation-delay: 0.8s;
 }
 
-
+/* ------- The end of animation-demo ------- */
 
 /* Transform Start */
 
@@ -215,42 +217,6 @@ body {
 
 /* Transform End */
 
-
-
-#tiger {
-    width: 35%;
-    height: 25%;
-    margin-left: 1rem;
-}
-
-.article-animations {
-    display: flex;
-    align-items: center;
-    margin-top: 5rem;
-    padding-top: 2rem;
-    padding-bottom: 14rem;
-
-    background-color: aliceblue;
-
-}
-
-.animations-1 h3 {
-    margin-left: 2.2rem;
-}
-
-.animations-1 {
-    width: 33%;
-    margin-left: 1rem;
-}
-
-.animations-2 {
-    width: 66%;
-}
-
-.animations-1 #tiger {
-    margin-left: 2rem;
-}
-
 /* h2 {
     display: flex;
     justify-content: center;
@@ -326,3 +292,60 @@ body {
 .slick-next {
     margin-right: 1rem;
 }
+
+/* --------- animation section ---------- */
+
+.css-animations-section {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.animations-h2 {
+    font-size: 4rem;
+    text-align: center;
+    margin: 5rem 0 0 0;
+}
+
+.article-animations {
+    display: flex;
+    align-items: center;
+    margin: 3rem 0;
+    padding: 3rem 0;
+    background-color: rgb(255, 255, 255);
+}
+
+.animations-1 {
+    width: 35%;
+    font-size: 2rem;
+}
+
+.animations-1 h3 {
+    text-align: center;
+    justify-items: center;
+    padding: 0 5rem;
+}
+
+.animations-2 {
+    width: 65%;
+    line-height: 3rem;
+    font-size: 1.8rem;
+    padding: 0 3rem 0 0;
+}
+
+.animations-2 p li{
+    justify-items: center;
+    
+}
+
+.div-table {
+    font-size: 1rem;
+    margin: 0 auto;
+    border-collapse: collapse;
+    border: 2px solid gray;
+}
+
+
+@media (min-width: 50em) {
+
+}
+/* ------ the end of animation section ------ */
