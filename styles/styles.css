@@ -16,6 +16,9 @@ body {
     align-items: center;
     margin-top: 20rem;
 }
+.parralax-page {
+    display: none;
+}
 
 .tiger {
     margin: 0 auto;
