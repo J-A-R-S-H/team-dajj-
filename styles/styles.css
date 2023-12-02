@@ -287,7 +287,25 @@ body {
     width: 45%;
     background-color: coral;
     padding: 2rem;
+    height: 40vh;
 }
+
+
+.options-text-explain p {
+    position: absolute;
+    z-index: 100;
+    width: 35%;
+    overflow: hidden;
+}
+
+.transitions-move-2,
+.transitions-move-3,
+.transitions-move-4,
+.transitions-move-5 {
+    display: none;
+}
+
+
 
 .slick-next {
     margin-right: 1rem;
@@ -332,9 +350,9 @@ body {
     padding: 0 3rem 0 0;
 }
 
-.animations-2 p li{
+.animations-2 p li {
     justify-items: center;
-    
+
 }
 
 .div-table {
@@ -345,7 +363,6 @@ body {
 }
 
 
-@media (min-width: 50em) {
+@media (min-width: 50em) {}
 
-}
 /* ------ the end of animation section ------ */
