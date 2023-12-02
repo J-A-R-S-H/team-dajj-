@@ -4,7 +4,7 @@
 }
 
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Crimson Text';
     background-color: rgb(165, 165, 165);
 
 }
@@ -30,7 +30,8 @@ h1 {
 
 }
 .parralax-page {
-    display: none;
+    /*display: none;*/
+    
 }
 
 .tiger {
@@ -337,14 +338,25 @@ h1 {
 /* --------- animation section ---------- */
 
 .css-animations-section {
-    width: 90%;
-    margin: 0 auto;
+   background-color: #111;
 }
 
 .animations-h2 {
     font-size: 4rem;
+    padding: 2rem 0 5rem 0 ;
     text-align: center;
-    margin: 5rem 0 0 0;
+    color: #ffa260;
+    background-color: #222;
+    font-family: 'Caveat';
+    border-bottom: solid 4px #ffd900;
+    
+    
+}
+
+.css-animations-article-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .article-animations {
@@ -352,7 +364,9 @@ h1 {
     align-items: center;
     margin: 3rem 0;
     padding: 3rem 0;
-    background-color: rgb(255, 255, 255);
+    background-color: #222;
+    width: 85%;
+    border: solid 4px #ffa260;
 }
 
 .animations-1 {
@@ -360,11 +374,20 @@ h1 {
     font-size: 2rem;
 }
 
-.animations-1 h3 {
-    text-align: center;
+.animations-1 h3  {
+    font-family: 'Caveat' ;
     justify-items: center;
     padding: 0 5rem;
+    color: #ffa260;
 }
+
+.animations-2 p, .animations-2 li {
+    color: #fff;
+   
+}
+
+
+
 
 .animations-2 {
     width: 65%;
@@ -373,10 +396,7 @@ h1 {
     padding: 0 3rem 0 0;
 }
 
-.animations-2 p li {
-    justify-items: center;
 
-}
 
 .div-table {
     font-size: 1rem;
