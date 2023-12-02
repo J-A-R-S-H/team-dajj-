@@ -5,3 +5,7 @@ $(function () {
 
     });
 });
+
+
+const startPage = document.querySelector(".start-page")
+const parralaxPage = document.querySelector(".parralax-page")
