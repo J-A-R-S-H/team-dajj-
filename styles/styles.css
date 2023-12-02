@@ -8,13 +8,26 @@ body {
     background-color: rgb(165, 165, 165);
 
 }
-
+h1 {
+    color: #ffa260;
+    margin-top: 10rem;
+    font-size: 2.5rem;
+    font-family: 'Caveat', 'cursive';
+   
+  
+}
 .start-page {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 20rem;
+    background-image: url("../images/Intro_Background.png");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom ;
+ 
+
 }
 .parralax-page {
     display: none;
@@ -27,9 +40,16 @@ body {
 
 
 .start-button {
-    width: 150px;
-    height: 60px;
-    font-size: 1.5rem;
+    padding: 0.4rem 1.5rem;
+    font-size: 2rem;
+    cursor: pointer;
+   color: #ffa260;
+   font-size: 1.1rem;
+   border-radius: .6rem;
+   border-style: solid;
+   border-color: white;
+   background-color: transparent;
+
 }
 
 /* ------ animation-demo ------- */
