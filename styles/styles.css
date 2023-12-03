@@ -33,8 +33,7 @@ h1 {
 }
 
 .parralax-page {
-    display: none;
-
+    visibility: hidden;
 }
 
 .tiger {
@@ -166,6 +165,8 @@ h1 {
 
 .slick-prev.slick-arrow {
     margin: 0 0 0 2rem;
+    z-index: 100;
+
 }
 
 .slick-next.slick-arrow {
@@ -175,6 +176,7 @@ h1 {
 .slick-prev:before,
 .slick-next:before {
     font-size: 1.75rem;
+    z-index: 100;
 }
 
 @media (min-width: 50em) {
