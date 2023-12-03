@@ -43,7 +43,7 @@ h1 {
 }
 
 .parralax-page {
-    visibility: hidden;
+    /* visibility: hidden; */
 }
 
 .tiger {
@@ -432,89 +432,97 @@ h1 {
     justify-content: center;
 } */
 
-.transitions-header-page {
-    background-color: aliceblue;
-    height: 80vh;
-}
-
-.options-transition {
-    margin-left: 5rem;
-    height: 21rem;
-    width: 45%;
-}
-
-.options-transition h3 {
-    margin-top: 2rem;
-}
-
-.css-transitions-section {
-    background-color: skyblue;
-}
-
-.space-two {
-    display: flex;
-    margin-top: 13rem;
-
-}
-
-.options-text-explain {
-    width: 45%;
-    background-color: coral;
-    padding: 2rem;
-}
-
-/* h2 {
-    display: flex;
-    justify-content: center;
-} */
-
-.transitions-header-page {
-    background-color: aliceblue;
-    height: 80vh;
-}
-
-.options-transition {
-    margin-left: 5rem;
-    height: 21rem;
-    width: 45%;
-}
-
-.options-transition h3 {
-    margin-top: 2rem;
-}
-
-.css-transitions-section {
-    background-color: skyblue;
-}
-
-.space-two {
-    display: flex;
-    margin-top: 13rem;
-
-}
-
-.options-text-explain {
-    width: 45%;
-    background-color: coral;
-    padding: 2rem;
-    height: 40vh;
-}
-
-
-.options-text-explain p {
-    position: absolute;
-    z-index: 100;
-    width: 35%;
-    overflow: hidden;
-}
 
 .transitions-move-2,
 .transitions-move-3,
 .transitions-move-4,
 .transitions-move-5 {
     display: none;
+
 }
 
+.transitions-header-page {
+    background-color: aliceblue;
+    height: 100vh;
+}
+
+.options-transition h3 {
+    font-size: 1.5rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.css-transitions-section {
+    background-color: #000000;
+}
+
+
+.options-text-explain article ul,
+.options-text-explain article ol {
+    padding-left: 0.9rem;
+}
+
+
+
+.options-text-explain {
+    margin: 1.5rem;
+}
+
+.options-transition {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+@media screen and (min-width: 34em) {
+    .options-text-explain {
+        margin-left: 5rem;
+        margin-right: 5rem;
+    }
+}
+
+@media screen and (min-width: 62.5em) {
+
+
+
+    .space-two {
+        display: flex;
+        margin-top: 4rem;
+        height: 70vh;
+
+    }
+
+    .transitions-header-page {
+        background-color: aliceblue;
+        height: 80vh;
+    }
+
+    .options-transition {
+        margin-left: 8rem;
+        height: 21rem;
+        width: 30%;
+    }
+
+
+    .options-text-explain article {
+        font-size: 1.1rem;
+        position: absolute;
+        z-index: 100;
+        width: 40%;
+        overflow: hidden;
+    }
+
+
+
+
+
+
+    .active-text {
+        color: white;
+    }
+
+}
 
 
 .slick-next {

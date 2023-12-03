@@ -17,8 +17,11 @@ selectionOption1.addEventListener("click", () => {
     transitions3.style.display = "none"
     transitions4.style.display = "none"
     transitions5.style.display = "none"
-
-
+    selectionOption1.classList.add("active-text")
+    selectionOption2.classList.remove("active-text")
+    selectionOption3.classList.remove("active-text")
+    selectionOption4.classList.remove("active-text")
+    selectionOption5.classList.remove("active-text")
 })
 
 selectionOption2.addEventListener("click", () => {
@@ -28,30 +31,39 @@ selectionOption2.addEventListener("click", () => {
     transitions3.style.display = "none"
     transitions4.style.display = "none"
     transitions5.style.display = "none"
-
-
+    selectionOption1.classList.remove("active-text")
+    selectionOption2.classList.add("active-text")
+    selectionOption3.classList.remove("active-text")
+    selectionOption4.classList.remove("active-text")
+    selectionOption5.classList.remove("active-text")
 })
 
 selectionOption3.addEventListener("click", () => {
     console.log("pls")
-    transitions1.style.display = "block"
+    transitions1.style.display = "none"
     transitions2.style.display = "none"
-    transitions3.style.display = "none"
+    transitions3.style.display = "block"
     transitions4.style.display = "none"
     transitions5.style.display = "none"
-
-
+    selectionOption1.classList.remove("active-text")
+    selectionOption2.classList.remove("active-text")
+    selectionOption3.classList.add("active-text")
+    selectionOption4.classList.remove("active-text")
+    selectionOption5.classList.remove("active-text")
 })
 
 selectionOption4.addEventListener("click", () => {
     console.log("pls")
-    transitions1.style.display = "block"
+    transitions1.style.display = "none"
     transitions2.style.display = "none"
     transitions3.style.display = "none"
-    transitions4.style.display = "none"
+    transitions4.style.display = "block"
     transitions5.style.display = "none"
-
-
+    selectionOption1.classList.remove("active-text")
+    selectionOption2.classList.remove("active-text")
+    selectionOption3.classList.remove("active-text")
+    selectionOption4.classList.add("active-text")
+    selectionOption5.classList.remove("active-text")
 })
 
 selectionOption5.addEventListener("click", () => {
@@ -61,8 +73,11 @@ selectionOption5.addEventListener("click", () => {
     transitions3.style.display = "none"
     transitions4.style.display = "none"
     transitions5.style.display = "block"
-
-
+    selectionOption1.classList.remove("active-text")
+    selectionOption2.classList.remove("active-text")
+    selectionOption3.classList.remove("active-text")
+    selectionOption4.classList.remove("active-text")
+    selectionOption5.classList.add("active-text")
 })
 
 
