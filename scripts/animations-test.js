@@ -12,7 +12,7 @@ const selectionOption5 = document.querySelector(".selection-option-5")
 
 selectionOption1.addEventListener("click", () => {
     console.log("pls")
-    transitions1.style.display = "block"
+    transitions1.style.display = "flex"
     transitions2.style.display = "none"
     transitions3.style.display = "none"
     transitions4.style.display = "none"
