@@ -505,10 +505,62 @@ h1 {
 } */
 
 
+.selectors-p{
+    
+}
+
+.selector{
+    color: #E9AF4F;
+}
+
+.transition-tag {
+    color: #81B6BF;
+}
+
+.transition-property {
+color: #4B78D0;
+}
+
+.transition-duration {
+color: #d9d9d9;
+}
+
+.timing-function {
+color: #AF4661;
+}
+
+.hover-tag {
+    color: #AA41FD;
+}
+
+.orange-value {
+    color: #E26C47;
+}
+.test div {
+    width: 50px;
+    height: 50px;
+    background-color: #22E7DB;
+    transition: margin-left 2s ease-in;
+}
+
+.test {
+    margin-top: 1.4rem;
+}
+
+.test:hover div { 
+    margin-left: 20rem;
+}
+
+.html-code-image {
+    width: 50%;
+}
+
+
 .transitions-move-2,
 .transitions-move-3,
 .transitions-move-4,
-.transitions-move-5 {
+.transitions-move-5,
+.transitions-move-6 {
     display: none;
 
 }
@@ -637,26 +689,7 @@ h1 {
     flex-direction: column;
     align-items: center;
 }
-@media screen and (min-width: 43.75em) {
 
-.animations-h2 {
-    font-size: 4rem;
-}
-
-.article-animations {
-    display: flex;
-    align-items: center;
-    margin: 3rem 0;
-    padding: 3rem 0;
-    background-color: #222;
-    width: 85%;
-    border: solid 4px #ffa260;
-}
-
-.div-table {
-    display: block;
-}
-}
 
 .article-animations {
     display: flex;
@@ -670,6 +703,21 @@ h1 {
     border: solid 4px #ffa260;
 }
 
+@media screen and (min-width: 58.75em) {
+
+    .animations-h2 {
+        font-size: 4rem;
+    }
+    
+    .article-animations {
+        flex-direction: row;
+        align-items: center;
+    }
+    
+    .div-table {
+        display: block;
+    }
+    }
 
 .animations-1 {
     width: 35%;
@@ -687,6 +735,8 @@ h1 {
 .animations-2 li {
     color: #fff;
 font-size: 1.2rem;
+line-height: 2rem;
+margin: 0 auto;
 }
 
 td {

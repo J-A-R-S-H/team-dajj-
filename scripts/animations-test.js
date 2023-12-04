@@ -3,12 +3,16 @@ const transitions2 = document.querySelector(".transitions-move-2")
 const transitions3 = document.querySelector(".transitions-move-3")
 const transitions4 = document.querySelector(".transitions-move-4")
 const transitions5 = document.querySelector(".transitions-move-5")
+const transitions6 = document.querySelector(".transitions-move-6")
+
 
 const selectionOption1 = document.querySelector(".selection-option-1")
 const selectionOption2 = document.querySelector(".selection-option-2")
 const selectionOption3 = document.querySelector(".selection-option-3")
 const selectionOption4 = document.querySelector(".selection-option-4")
 const selectionOption5 = document.querySelector(".selection-option-5")
+const selectionOption6 = document.querySelector(".selection-option-6")
+
 
 selectionOption1.addEventListener("click", () => {
     console.log("pls")
@@ -17,11 +21,13 @@ selectionOption1.addEventListener("click", () => {
     transitions3.style.display = "none"
     transitions4.style.display = "none"
     transitions5.style.display = "none"
+    transitions6.style.display = "none"
     selectionOption1.classList.add("active-text")
     selectionOption2.classList.remove("active-text")
     selectionOption3.classList.remove("active-text")
     selectionOption4.classList.remove("active-text")
     selectionOption5.classList.remove("active-text")
+    selectionOption6.classList.remove("active-text")
 })
 
 selectionOption2.addEventListener("click", () => {
@@ -31,11 +37,13 @@ selectionOption2.addEventListener("click", () => {
     transitions3.style.display = "none"
     transitions4.style.display = "none"
     transitions5.style.display = "none"
+    transitions6.style.display = "none"
     selectionOption1.classList.remove("active-text")
     selectionOption2.classList.add("active-text")
     selectionOption3.classList.remove("active-text")
     selectionOption4.classList.remove("active-text")
     selectionOption5.classList.remove("active-text")
+    selectionOption6.classList.remove("active-text")
 })
 
 selectionOption3.addEventListener("click", () => {
@@ -45,11 +53,13 @@ selectionOption3.addEventListener("click", () => {
     transitions3.style.display = "block"
     transitions4.style.display = "none"
     transitions5.style.display = "none"
+    transitions6.style.display = "none"
     selectionOption1.classList.remove("active-text")
     selectionOption2.classList.remove("active-text")
     selectionOption3.classList.add("active-text")
     selectionOption4.classList.remove("active-text")
     selectionOption5.classList.remove("active-text")
+    selectionOption6.classList.remove("active-text")
 })
 
 selectionOption4.addEventListener("click", () => {
@@ -64,7 +74,11 @@ selectionOption4.addEventListener("click", () => {
     selectionOption3.classList.remove("active-text")
     selectionOption4.classList.add("active-text")
     selectionOption5.classList.remove("active-text")
+    transitions6.style.display = "none"
+    selectionOption6.classList.remove("active-text")
+
 })
+
 
 selectionOption5.addEventListener("click", () => {
     console.log("pls")
@@ -73,12 +87,28 @@ selectionOption5.addEventListener("click", () => {
     transitions3.style.display = "none"
     transitions4.style.display = "none"
     transitions5.style.display = "block"
+    transitions6.style.display = "none"
     selectionOption1.classList.remove("active-text")
     selectionOption2.classList.remove("active-text")
     selectionOption3.classList.remove("active-text")
     selectionOption4.classList.remove("active-text")
     selectionOption5.classList.add("active-text")
+    selectionOption6.classList.remove("active-text")
 })
 
 
-
+selectionOption6.addEventListener("click", () => {
+    console.log("pls")
+    transitions1.style.display = "none"
+    transitions2.style.display = "none"
+    transitions3.style.display = "none"
+    transitions4.style.display = "none"
+    transitions5.style.display = "none"
+    transitions6.style.display = "block"
+    selectionOption1.classList.remove("active-text")
+    selectionOption2.classList.remove("active-text")
+    selectionOption3.classList.remove("active-text")
+    selectionOption4.classList.remove("active-text")
+    selectionOption5.classList.remove("active-text")
+    selectionOption6.classList.add("active-text")
+})
