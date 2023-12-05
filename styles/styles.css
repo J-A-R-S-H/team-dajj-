@@ -765,7 +765,31 @@ h1 {
     background-color: #111;
 }
 
+.animation-header {
+    position: relative;
+}
+
+.animation-header img {
+    height: 20vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center 45%;
+    border-bottom: .125rem solid rgb(255, 217, 0);
+}
+
 .animations-h2 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 20vh;
+}
+
+/* .animations-h2 {
     font-size: 2rem;
     padding: 2rem 0 5rem 0;
     text-align: center;
@@ -774,7 +798,7 @@ h1 {
     border-bottom: solid 4px #ffd900;
 
 
-}
+} */
 
 
 .css-animations-article-wrapper {
