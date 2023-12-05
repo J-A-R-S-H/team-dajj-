@@ -67,7 +67,7 @@ selectionOption4.addEventListener("click", () => {
     transitions1.style.display = "none"
     transitions2.style.display = "none"
     transitions3.style.display = "none"
-    transitions4.style.display = "block"
+    transitions4.style.display = "flex"
     transitions5.style.display = "none"
     selectionOption1.classList.remove("active-text")
     selectionOption2.classList.remove("active-text")

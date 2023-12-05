@@ -595,6 +595,46 @@ h1 {
 }
 
 
+.transitions-header-page {
+    margin-top: 20rem;
+    position: relative;
+    height: 28vh;
+}
+
+.transition-header-image {
+    object-fit: cover;
+    width: 100%;
+    height: 90%;
+    object-position: center 60%;
+}
+
+.transitions-header-page h2 {
+    position: absolute;
+    bottom: 4rem;
+    right: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+    font-size: 3.5rem;
+}
+
+.transition-button {
+    margin-top: 1rem;
+    background-color: #303030;
+    border-style: solid;
+    border-color: #ffa260;
+    color: #ffa260;
+    justify-self: center;
+    padding: 0.7rem 1.2rem;
+}
+
+.transitions-move-4 {
+    flex-direction: column;
+    align-items: center;
+}
+
 .transitions-move-2,
 .transitions-move-3,
 .transitions-move-4,
@@ -620,10 +660,6 @@ h1 {
 
 }
 
-.transitions-header-page {
-    background-color: aliceblue;
-    height: 30vh;
-}
 
 .options-transition h3 {
     font-size: 1.5rem;
@@ -819,10 +855,29 @@ table {
     font-size: 1rem;
     margin: 0 auto;
     border: 2px solid gray;
-    display: none;
+    display: block;
+    overflow: scroll;
 }
 
 
 @media (min-width: 50em) {}
 
 /* ------ the end of animation section ------ */
+
+
+.reverse-scale {
+    animation: reverse-resize 300ms 1;
+    z-index: -1000;
+}
+
+
+@keyframes reverse-resize {
+    0% {
+        transform: scale(1);
+    }
+
+    100% {
+        transform: scale(0);
+        ;
+    }
+}

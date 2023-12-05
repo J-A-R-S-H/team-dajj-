@@ -12,6 +12,13 @@ const parralaxPage = document.querySelector(".parralax-page")
 const startButton = document.querySelector('.start-button')
 
 startButton.addEventListener('click', () => {
-    startPage.style.display = 'none';
     parralaxPage.style.visibility = 'visible';
+    startPage.classList.add("reverse-scale")
+
+    setTimeout(timeoutDisplay, 300)
 })
+
+
+function timeoutDisplay() {
+    startPage.style.display = "none"
+}
