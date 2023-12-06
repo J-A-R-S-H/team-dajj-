@@ -146,12 +146,26 @@ h1 {
 
 /* Transform Start */
 
+.slick-prev {
+    display: none;
+}
+
+.slick-prev::before,
+.slick-next::before {
+    font-size: 2.5rem;
+}
+
+.slick-next {
+    margin-right: 5rem;
+    display: none;
+}
+
 .transform-section {
     position: relative;
 }
 
 .transform-section .header-img {
-    height: 20vh;
+    height: 25vh;
     width: 100%;
     object-fit: cover;
     object-position: center 60%;
@@ -167,7 +181,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: 25vh;
 
 }
 
@@ -193,7 +207,7 @@ h1 {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: 25vh;
 }
 
 .transform-section p {
@@ -282,6 +296,18 @@ h1 {
     top: 10%;
     right: -2%;
     transform: skew(0, 25deg);
+}
+
+
+.part-2,
+.part-3,
+.part-4,
+.part-5 {
+    height: 100vh;
+}
+
+.part-7 {
+    height: 130vh;
 }
 
 .part-5 ul {
@@ -405,6 +431,10 @@ h1 {
         height: 125px;
     }
 
+    .part-7 {
+        height: 100vh;
+    }
+
     .part-7 ol {
         font-size: 1.125rem;
     }
@@ -415,6 +445,23 @@ h1 {
 }
 
 @media (min-width: 62.5em) {
+
+    .slick-prev {
+        z-index: 1000;
+        margin-left: 3rem;
+        display: block;
+    }
+
+    .slick-prev::before,
+    .slick-next::before {
+        font-size: 2.5rem;
+    }
+
+    .slick-next {
+        margin-right: 4rem;
+        display: block;
+    }
+
     .part-1 h2 {
         font-size: 3.5rem;
     }
@@ -473,6 +520,7 @@ h1 {
         display: flex;
         justify-content: center;
         gap: 2rem;
+        margin-bottom: 3rem;
     }
 
     .part-6-container img {
@@ -490,6 +538,15 @@ h1 {
 }
 
 @media (min-width: 87.5em) {
+
+    .slick-prev {
+        margin-left: 5rem;
+    }
+
+    .slick-next {
+        margin-right: 5.5rem;
+    }
+
     .part-1 h2 {
         font-size: 4rem;
     }
@@ -506,8 +563,9 @@ h1 {
 
     .part-1-demo,
     .part-2-demo {
-        margin: 3.5rem 0 0 0;
+        margin: 5rem 0;
         gap: 2rem 4rem;
+        height: 37vh;
     }
 
     .demo-1,
@@ -558,7 +616,7 @@ h1 {
 
 @media (min-width: 89.5em) {
     .gif-container {
-        margin: 6rem 0 0 0;
+        margin: 4.5625rem 0;
     }
 
     .cat-gif-1 {
@@ -582,7 +640,7 @@ article p {
     font-size: 1.25rem;
 }
 
-article li {
+.article-li {
     font-size: 1.25rem;
 }
 
@@ -657,6 +715,36 @@ article li {
 }
 
 .transitions-header-page {
+    position: relative;
+}
+
+.transition-header-image {
+    height: 25vh;
+    width: 100%;
+    object-fit: cover;
+    object-position: center 60%;
+    border-bottom: 0.125rem solid rgb(255, 217, 0);
+}
+
+.transitions-header-page h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+}
+
+@media (min-width: 87.5em) {
+    .transitions-header-page h2 {
+        font-size: 4rem;
+    }
+}
+
+/* .transitions-header-page {
     margin-top: 2rem;
     position: relative;
     height: 28vh;
@@ -679,7 +767,7 @@ article li {
     align-items: center;
     height: 10vh;
     font-size: 3.5rem;
-}
+} */
 
 .transition-button {
     margin-top: 1rem;
@@ -768,8 +856,8 @@ article li {
 
     .space-two {
         display: flex;
-        margin-top: 4rem;
-        height: 36rem;
+        margin-top: 6rem;
+        height: 38rem;
 
     }
 
@@ -797,10 +885,6 @@ article li {
 }
 
 
-.slick-next {
-    margin-right: 1rem;
-}
-
 /* --------- animation section ---------- */
 
 .css-animations-section {
@@ -812,7 +896,7 @@ article li {
 }
 
 .animation-header img {
-    height: 20vh;
+    height: 25vh;
     width: 100%;
     object-fit: cover;
     object-position: center 45%;
@@ -828,7 +912,7 @@ article li {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20vh;
+    height: 25vh;
 }
 
 /* .animations-h2 {
