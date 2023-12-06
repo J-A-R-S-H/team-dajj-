@@ -578,7 +578,13 @@ h1 {
 } */
 
 
-.selectors-p {}
+article p {
+    font-size: 1.25rem;
+}
+
+article li {
+    font-size: 1.25rem;
+}
 
 .selector {
     color: #E9AF4F;
@@ -615,6 +621,19 @@ h1 {
     transition: margin-left 2s ease-in;
 }
 
+.test img {
+    transition: margin-left 1s ease-in;
+}
+
+
+.test:hover img {
+    margin-left: 20rem;
+}
+
+.no-animation:hover img {
+    margin-left: 20rem;
+}
+
 .test {
     margin-top: 1.4rem;
 }
@@ -627,6 +646,15 @@ h1 {
     width: 50%;
 }
 
+.instant-image:hover {
+    margin-left: 20rem;
+}
+
+.transition-button:hover {
+    color: #22E7DB;
+    border-color: #22E7DB;
+    transition: 2s ease-in-out;
+}
 
 .transitions-header-page {
     margin-top: 2rem;
@@ -741,7 +769,7 @@ h1 {
     .space-two {
         display: flex;
         margin-top: 4rem;
-        height: 70vh;
+        height: 36rem;
 
     }
 
@@ -758,7 +786,6 @@ h1 {
         position: absolute;
         z-index: 100;
         width: 40%;
-        overflow: hidden;
     }
 
 
